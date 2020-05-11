@@ -1,12 +1,6 @@
 # CoppeliaSim/VREP(V-Eep)
 
-   * [CoppeliaSim/VREP(V-Eep)](#coppeliasimvrepv-eep)
-      * [安装](#安装)
-         * [Linux(ROS, Python等接口)](#linuxros-python等接口)
-         * [Windows(Ｍatlab, Python等接口)](#windowsｍatlab-python等接口)
-      * [实验](#实验)
-      * [参考资料](#参考资料)
-      * [实验报告模板](#实验报告模板)
+[toc]
 
 ## 安装
 
@@ -24,11 +18,42 @@
 
 ### Windows(Ｍatlab, Python等接口)
 
-
+1. [官网下载Edu版本](https://coppeliarobotics.com/downloads)
+2. 安装
+   - Installer 安装默认路径 或者自定义（注意记住安装路径）
+3. 快捷方式
 
 ## 实验
 
+### 联调环境搭建（Windows）
 
+#### Matlab
+
+- 工作目录下包含接口文件和链接库
+  - 接口文件路径：
+    - C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApiBindings\matlab\matlab
+  - 链接库路径：
+    - C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApiBindings\lib\lib\Windows
+  - 参考readMe文件，将下列文件复制到工作目录下
+    - remApi.m
+    - remoteApiProto.m
+    - simpleTest.m
+    - remoteApi.dll
+- 接口函数参考[官方文档](https://www.coppeliarobotics.com/helpFiles/index.html)
+
+#### Python
+
+- 工作目录下包含接口文件和链接库
+  - 接口文件路径：
+    - C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApiBindings\python\python
+  - 链接库路径：
+    - C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApiBindings\lib\lib\Windows
+  - 参考readMe文件，将下列文件复制到工作目录下(其他文件根据需求添加)
+    - sim.py
+    - simConst.py
+    - simpleTest.py
+    - remoteApi.dll
+- 接口函数参考[官方文档](https://www.coppeliarobotics.com/helpFiles/index.html)
 
 ## 参考资料
 
@@ -43,3 +68,7 @@
 ## 实验报告模板
 
 若用Latex：模板可参考[SJTUTesis](https://github.com/sjtug/SJTUThesis)
+
+## 备注
+
+上述内容仅为个人理解，若有错误，欢迎指正。
