@@ -55,6 +55,12 @@
     - remoteApi.dll
 - 接口函数参考[官方文档](https://www.coppeliarobotics.com/helpFiles/index.html)
 
+### Lua
+
+- 可以直接在试验平台上编程。
+
+- 主要参考 `ur5WithRg2Grasping.ttt`
+
 ## 参考资料
 
 1. [vrep官方帮助文档，很全面很详细，纯英文](http://www.coppeliarobotics.com/helpFiles/index.html)
@@ -64,6 +70,15 @@
 5. [一些基础理论的讲解【cnblog,XXX已失联】](https://www.cnblogs.com/21207-iHome/tag/V-rep/default.html?page=1 )
 6. [IK Group基础讲解](https://blog.csdn.net/philthinker/article/details/79867312)
 7. [Vrep机器人动力学建模仿真知乎专栏](https://zhuanlan.zhihu.com/c_156026799)
+8. V-rep仿真UR5：[第一篇](https://blog.csdn.net/u013636149/article/details/80633272)，[第二篇](https://blog.csdn.net/u013636149/article/details/80633605)，[第三篇](https://blog.csdn.net/u013636149/article/details/80634668)
+
+### 油管类似链接
+
+[ex1](https://www.youtube.com/watch?v=eTd6mOk6Njw)
+
+[ex2](https://www.youtube.com/watch?v=CVoV08T0Aqo)
+
+[ex3](https://www.youtube.com/watch?v=OfpB87pRoUk)
 
 ## 实验报告模板
 
